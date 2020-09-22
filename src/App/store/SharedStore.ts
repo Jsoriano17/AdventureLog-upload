@@ -1,7 +1,5 @@
 import { action, configure, observable, runInAction } from 'mobx';
 import { createContext } from 'react';
-import { history } from '../..';
-import { IMessage } from '../models/message';
 
 configure({enforceActions: "always"});
 

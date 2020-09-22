@@ -17,7 +17,6 @@ const tailLayout = {
 
 
 const MessageForm = () => {
-    const sharedStore = useContext(SharedStore);
 
     const [message, setMessage] = useState<IMessage>({
         id: '',
@@ -26,10 +25,6 @@ const MessageForm = () => {
     });
 
     const onFinish = (values: any) => {
-        let newMessage = {
-            ...message,
-            id: uuid()
-        };
         alert("under construction")
         // createMessage(newMessage);
     };
