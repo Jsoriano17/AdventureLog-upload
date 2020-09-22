@@ -1,10 +1,8 @@
-import React, { FormEvent, useContext, useState } from 'react';
+import React, { FormEvent, useState } from 'react';
 import { Form, Input, Button } from 'antd';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { v4 as uuid } from 'uuid';
 import { IMessage } from '../../models/message';
-import SharedStore from '../../store/SharedStore';
 import { observer } from 'mobx-react-lite';
 
 const layout = {
