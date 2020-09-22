@@ -6,14 +6,15 @@ import * as serviceWorker from './serviceWorker';
 import 'antd/dist/antd.css';
 import { createBrowserHistory } from 'history';
 import { Router } from 'react-router-dom';
+import ScrollToTop from './App/components/ScrollToTop';
 
 export const history = createBrowserHistory();
 
 ReactDOM.render(
   <Router history={history}>
-    <React.StrictMode>
+    <ScrollToTop>
       <App />
-    </React.StrictMode>
+    </ScrollToTop>
   </Router>,
   document.getElementById('root')
 );
