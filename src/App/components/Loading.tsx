@@ -16,7 +16,7 @@ export default observer(Loading);
 const Container = styled.div`
     background: black;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;

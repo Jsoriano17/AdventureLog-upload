@@ -39,6 +39,7 @@ export class SharedStore {
         {description: "Are you feeling it now mister krabs?", author: 'Spongebob'},
         {description: "I couldn't ask for a better girl!", author: 'Jeffrey'},
         {description: "To me you're always perfect", author: 'Jeffrey'},
+        {description: "Nothing beats your personality", author: 'Jeffrey'},
         {description: "Theres only so much you can do sometimes", author: 'n/a'},
         {description: "It's ok to fail at something as long as you learn from it", author: 'n/a'},
         {description: "Build em up,  break em down", author: 'Torbjorn'},

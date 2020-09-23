@@ -46,7 +46,7 @@ const Navbar = () => {
                 to="memory"
                 spy={true}
                 smooth={true}
-                offset={40}
+                offset={25}
                 duration={1100}
                 style={{ color: 'black' }}
                 onClick={() => switchActive(active)}
